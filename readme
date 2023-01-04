@@ -1,0 +1,21 @@
+
+setup given code on you local file
+
+install database file   foodics.sql  in your system
+
+
+now you can run API as it is mentioned
+
+
+
+POST
+
+foodics
+http://121.0.0.1/foodics/order
+AUTHORIZATIONBasic Auth
+Username: given in csv file
+Password: given in csv file
+
+BODYraw
+
+{"products":[{"product_id": 1,"quantity": 2},{"product_id": 2,"quantity": 1}]}
